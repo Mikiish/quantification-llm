@@ -1,0 +1,2892 @@
+{
+  "execution": {
+    "platform": "Windows-11-10.0.26300-SP0",
+    "torch": "2.9.1+cpu",
+    "backend": "Transformers / CPU",
+    "transformers": "4.57.6"
+  },
+  "scores": {
+    "fp16": 18,
+    "int4": 18
+  },
+  "storage_reduction": 0.6282586755120201,
+  "gain_int4": 6,
+  "loss_int4": 6,
+  "same_valid_answer": 27,
+  "invalid_format": {
+    "fp16": 0,
+    "int4": 0
+  },
+  "weights": {
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "bits": 4,
+    "group_size": 128,
+    "fp16_bytes": 3087428608,
+    "int4_bytes": 1147724800,
+    "fp16_file_bytes": 3087467144,
+    "relative_frobenius": 0.10518243781710798,
+    "rmse": 0.0029764306770806545,
+    "max_error": 0.1171875,
+    "matrices": [
+      {
+        "name": "model.layers.0.mlp.down_proj.weight",
+        "shape": [
+          1536,
+          8960
+        ],
+        "parameters": 13762560,
+        "squared_error": 105.8197121482662,
+        "squared_norm": 9863.62591613475,
+        "max_error": 0.023193359375
+      },
+      {
+        "name": "model.layers.0.mlp.gate_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 137.8770389971827,
+        "squared_norm": 13015.398742900847,
+        "max_error": 0.021240234375
+      },
+      {
+        "name": "model.layers.0.mlp.up_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 95.54854440049361,
+        "squared_norm": 8978.564459457328,
+        "max_error": 0.015625
+      },
+      {
+        "name": "model.layers.0.self_attn.k_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 13.150236123687442,
+        "squared_norm": 1225.4112044275046,
+        "max_error": 0.02197265625
+      },
+      {
+        "name": "model.layers.0.self_attn.o_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 12.913089613234394,
+        "squared_norm": 1238.8310057340066,
+        "max_error": 0.01580810546875
+      },
+      {
+        "name": "model.layers.0.self_attn.q_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 65.87518591096406,
+        "squared_norm": 5563.11405801974,
+        "max_error": 0.05767822265625
+      },
+      {
+        "name": "model.layers.0.self_attn.v_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 1.596362740232312,
+        "squared_norm": 137.96681894843076,
+        "max_error": 0.00927734375
+      },
+      {
+        "name": "model.layers.1.mlp.down_proj.weight",
+        "shape": [
+          1536,
+          8960
+        ],
+        "parameters": 13762560,
+        "squared_error": 121.89503683871739,
+        "squared_norm": 10641.137783028593,
+        "max_error": 0.030975341796875
+      },
+      {
+        "name": "model.layers.1.mlp.gate_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 146.88171717096088,
+        "squared_norm": 14290.809021798847,
+        "max_error": 0.02294921875
+      },
+      {
+        "name": "model.layers.1.mlp.up_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 119.88889620177324,
+        "squared_norm": 11421.448792646821,
+        "max_error": 0.0552978515625
+      },
+      {
+        "name": "model.layers.1.self_attn.k_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 8.061386851140963,
+        "squared_norm": 772.9282587195976,
+        "max_error": 0.01788330078125
+      },
+      {
+        "name": "model.layers.1.self_attn.o_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 13.489388890168463,
+        "squared_norm": 1295.9543088607466,
+        "max_error": 0.020965576171875
+      },
+      {
+        "name": "model.layers.1.self_attn.q_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 27.563660226826034,
+        "squared_norm": 2607.198400771493,
+        "max_error": 0.0181884765625
+      },
+      {
+        "name": "model.layers.1.self_attn.v_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 1.7741403958807815,
+        "squared_norm": 159.12449048009697,
+        "max_error": 0.00626373291015625
+      },
+      {
+        "name": "model.layers.10.mlp.down_proj.weight",
+        "shape": [
+          1536,
+          8960
+        ],
+        "parameters": 13762560,
+        "squared_error": 116.55005953022292,
+        "squared_norm": 10022.591957965924,
+        "max_error": 0.04144287109375
+      },
+      {
+        "name": "model.layers.10.mlp.gate_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 124.17346550547154,
+        "squared_norm": 11481.233966527072,
+        "max_error": 0.03759765625
+      },
+      {
+        "name": "model.layers.10.mlp.up_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 117.38968033418432,
+        "squared_norm": 10807.758941307611,
+        "max_error": 0.02288818359375
+      },
+      {
+        "name": "model.layers.10.self_attn.k_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 4.169102787882878,
+        "squared_norm": 344.28297711249485,
+        "max_error": 0.01397705078125
+      },
+      {
+        "name": "model.layers.10.self_attn.o_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 17.905736140627223,
+        "squared_norm": 1715.7357082971726,
+        "max_error": 0.0341796875
+      },
+      {
+        "name": "model.layers.10.self_attn.q_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 21.69581033216847,
+        "squared_norm": 1987.5937499647025,
+        "max_error": 0.02197265625
+      },
+      {
+        "name": "model.layers.10.self_attn.v_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 3.6828855978153285,
+        "squared_norm": 302.4036166577195,
+        "max_error": 0.0093536376953125
+      },
+      {
+        "name": "model.layers.11.mlp.down_proj.weight",
+        "shape": [
+          1536,
+          8960
+        ],
+        "parameters": 13762560,
+        "squared_error": 110.07793069601796,
+        "squared_norm": 9680.801666743326,
+        "max_error": 0.0400390625
+      },
+      {
+        "name": "model.layers.11.mlp.gate_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 131.7599852146647,
+        "squared_norm": 12078.088799772675,
+        "max_error": 0.028778076171875
+      },
+      {
+        "name": "model.layers.11.mlp.up_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 116.25895394943596,
+        "squared_norm": 10589.562668086986,
+        "max_error": 0.021484375
+      },
+      {
+        "name": "model.layers.11.self_attn.k_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 4.381451260833657,
+        "squared_norm": 381.83124025518595,
+        "max_error": 0.019500732421875
+      },
+      {
+        "name": "model.layers.11.self_attn.o_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 16.05234648796354,
+        "squared_norm": 1543.8301190641826,
+        "max_error": 0.03955078125
+      },
+      {
+        "name": "model.layers.11.self_attn.q_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 22.307909273176794,
+        "squared_norm": 2012.3563480844177,
+        "max_error": 0.01708984375
+      },
+      {
+        "name": "model.layers.11.self_attn.v_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 3.1410157691265965,
+        "squared_norm": 266.68164228215613,
+        "max_error": 0.009613037109375
+      },
+      {
+        "name": "model.layers.12.mlp.down_proj.weight",
+        "shape": [
+          1536,
+          8960
+        ],
+        "parameters": 13762560,
+        "squared_error": 114.49840245752416,
+        "squared_norm": 9681.08271494436,
+        "max_error": 0.041748046875
+      },
+      {
+        "name": "model.layers.12.mlp.gate_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 127.50093095395697,
+        "squared_norm": 11434.138518973565,
+        "max_error": 0.028564453125
+      },
+      {
+        "name": "model.layers.12.mlp.up_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 116.50160827663649,
+        "squared_norm": 10513.910991950395,
+        "max_error": 0.017578125
+      },
+      {
+        "name": "model.layers.12.self_attn.k_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 4.768221589097074,
+        "squared_norm": 374.29893950978004,
+        "max_error": 0.02105712890625
+      },
+      {
+        "name": "model.layers.12.self_attn.o_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 15.36539234244903,
+        "squared_norm": 1469.7829666128018,
+        "max_error": 0.02667236328125
+      },
+      {
+        "name": "model.layers.12.self_attn.q_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 22.640121576705926,
+        "squared_norm": 2015.5641878250522,
+        "max_error": 0.0252685546875
+      },
+      {
+        "name": "model.layers.12.self_attn.v_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 2.592948758947358,
+        "squared_norm": 235.71086322413066,
+        "max_error": 0.00687408447265625
+      },
+      {
+        "name": "model.layers.13.mlp.down_proj.weight",
+        "shape": [
+          1536,
+          8960
+        ],
+        "parameters": 13762560,
+        "squared_error": 110.18348425431506,
+        "squared_norm": 9658.423319369798,
+        "max_error": 0.03564453125
+      },
+      {
+        "name": "model.layers.13.mlp.gate_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 119.91097734436332,
+        "squared_norm": 10952.498659725115,
+        "max_error": 0.025421142578125
+      },
+      {
+        "name": "model.layers.13.mlp.up_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 115.22732857507214,
+        "squared_norm": 10431.697484982273,
+        "max_error": 0.020721435546875
+      },
+      {
+        "name": "model.layers.13.self_attn.k_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 4.675409345526575,
+        "squared_norm": 429.27113026197827,
+        "max_error": 0.011932373046875
+      },
+      {
+        "name": "model.layers.13.self_attn.o_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 15.610528876097518,
+        "squared_norm": 1496.5159422843974,
+        "max_error": 0.029937744140625
+      },
+      {
+        "name": "model.layers.13.self_attn.q_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 22.937376038156174,
+        "squared_norm": 2091.3599864375524,
+        "max_error": 0.0137939453125
+      },
+      {
+        "name": "model.layers.13.self_attn.v_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 3.012393082284756,
+        "squared_norm": 254.42255061202385,
+        "max_error": 0.0100250244140625
+      },
+      {
+        "name": "model.layers.14.mlp.down_proj.weight",
+        "shape": [
+          1536,
+          8960
+        ],
+        "parameters": 13762560,
+        "squared_error": 117.1114806865017,
+        "squared_norm": 9607.425837818118,
+        "max_error": 0.037109375
+      },
+      {
+        "name": "model.layers.14.mlp.gate_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 111.55794494028012,
+        "squared_norm": 10000.564005124663,
+        "max_error": 0.0244140625
+      },
+      {
+        "name": "model.layers.14.mlp.up_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 113.94994795702102,
+        "squared_norm": 10155.046522373681,
+        "max_error": 0.0218505859375
+      },
+      {
+        "name": "model.layers.14.self_attn.k_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 3.4895526373357413,
+        "squared_norm": 325.6449278388492,
+        "max_error": 0.01397705078125
+      },
+      {
+        "name": "model.layers.14.self_attn.o_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 15.142879085170101,
+        "squared_norm": 1426.1380603971525,
+        "max_error": 0.0494384765625
+      },
+      {
+        "name": "model.layers.14.self_attn.q_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 22.485413881660993,
+        "squared_norm": 1818.0655460869584,
+        "max_error": 0.0233154296875
+      },
+      {
+        "name": "model.layers.14.self_attn.v_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 2.68238074665598,
+        "squared_norm": 229.27589193488416,
+        "max_error": 0.008148193359375
+      },
+      {
+        "name": "model.layers.15.mlp.down_proj.weight",
+        "shape": [
+          1536,
+          8960
+        ],
+        "parameters": 13762560,
+        "squared_error": 111.60128162726909,
+        "squared_norm": 9522.649751832616,
+        "max_error": 0.0416259765625
+      },
+      {
+        "name": "model.layers.15.mlp.gate_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 121.2389195219487,
+        "squared_norm": 10813.835188125278,
+        "max_error": 0.031494140625
+      },
+      {
+        "name": "model.layers.15.mlp.up_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 115.53069123245201,
+        "squared_norm": 10372.623758266307,
+        "max_error": 0.02490234375
+      },
+      {
+        "name": "model.layers.15.self_attn.k_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 3.858965006493804,
+        "squared_norm": 326.2812535135496,
+        "max_error": 0.0166015625
+      },
+      {
+        "name": "model.layers.15.self_attn.o_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 17.24684788878564,
+        "squared_norm": 1630.7985404584888,
+        "max_error": 0.042724609375
+      },
+      {
+        "name": "model.layers.15.self_attn.q_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 26.63451485896216,
+        "squared_norm": 2095.259717987186,
+        "max_error": 0.1171875
+      },
+      {
+        "name": "model.layers.15.self_attn.v_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 3.564409108773379,
+        "squared_norm": 303.5337325136052,
+        "max_error": 0.008544921875
+      },
+      {
+        "name": "model.layers.16.mlp.down_proj.weight",
+        "shape": [
+          1536,
+          8960
+        ],
+        "parameters": 13762560,
+        "squared_error": 109.02162045237014,
+        "squared_norm": 9305.397450759076,
+        "max_error": 0.03997802734375
+      },
+      {
+        "name": "model.layers.16.mlp.gate_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 117.13648199886647,
+        "squared_norm": 10336.937942711293,
+        "max_error": 0.025177001953125
+      },
+      {
+        "name": "model.layers.16.mlp.up_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 115.62923034132949,
+        "squared_norm": 10254.667094076889,
+        "max_error": 0.026947021484375
+      },
+      {
+        "name": "model.layers.16.self_attn.k_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 3.6624588576656123,
+        "squared_norm": 301.88327011305915,
+        "max_error": 0.013824462890625
+      },
+      {
+        "name": "model.layers.16.self_attn.o_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 16.265808297902034,
+        "squared_norm": 1515.345102405075,
+        "max_error": 0.047119140625
+      },
+      {
+        "name": "model.layers.16.self_attn.q_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 20.138968308355494,
+        "squared_norm": 1828.2833859715004,
+        "max_error": 0.0130615234375
+      },
+      {
+        "name": "model.layers.16.self_attn.v_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 2.9435056166354165,
+        "squared_norm": 256.88490212489944,
+        "max_error": 0.0115966796875
+      },
+      {
+        "name": "model.layers.17.mlp.down_proj.weight",
+        "shape": [
+          1536,
+          8960
+        ],
+        "parameters": 13762560,
+        "squared_error": 112.91330437634156,
+        "squared_norm": 9771.200155530652,
+        "max_error": 0.03643798828125
+      },
+      {
+        "name": "model.layers.17.mlp.gate_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 119.90933421348997,
+        "squared_norm": 10475.50511115035,
+        "max_error": 0.0299072265625
+      },
+      {
+        "name": "model.layers.17.mlp.up_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 120.40689184361545,
+        "squared_norm": 10700.597399187205,
+        "max_error": 0.0203857421875
+      },
+      {
+        "name": "model.layers.17.self_attn.k_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 2.1746181262692588,
+        "squared_norm": 191.27000837992955,
+        "max_error": 0.01080322265625
+      },
+      {
+        "name": "model.layers.17.self_attn.o_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 18.229459719690322,
+        "squared_norm": 1711.901319458661,
+        "max_error": 0.02587890625
+      },
+      {
+        "name": "model.layers.17.self_attn.q_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 17.795991505465203,
+        "squared_norm": 1618.2871374620354,
+        "max_error": 0.017333984375
+      },
+      {
+        "name": "model.layers.17.self_attn.v_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 3.8889918859931996,
+        "squared_norm": 340.7205284486118,
+        "max_error": 0.010467529296875
+      },
+      {
+        "name": "model.layers.18.mlp.down_proj.weight",
+        "shape": [
+          1536,
+          8960
+        ],
+        "parameters": 13762560,
+        "squared_error": 116.07316718332184,
+        "squared_norm": 9878.691138292948,
+        "max_error": 0.030426025390625
+      },
+      {
+        "name": "model.layers.18.mlp.gate_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 122.57262687199425,
+        "squared_norm": 10498.820606332967,
+        "max_error": 0.0306396484375
+      },
+      {
+        "name": "model.layers.18.mlp.up_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 122.47157780027953,
+        "squared_norm": 10774.603207740329,
+        "max_error": 0.01800537109375
+      },
+      {
+        "name": "model.layers.18.self_attn.k_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 3.2723643159632196,
+        "squared_norm": 294.79376074179237,
+        "max_error": 0.011444091796875
+      },
+      {
+        "name": "model.layers.18.self_attn.o_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 16.729860880886406,
+        "squared_norm": 1583.6488883745753,
+        "max_error": 0.0364990234375
+      },
+      {
+        "name": "model.layers.18.self_attn.q_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 19.725177575023416,
+        "squared_norm": 1793.5729790610399,
+        "max_error": 0.01904296875
+      },
+      {
+        "name": "model.layers.18.self_attn.v_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 3.342580288748998,
+        "squared_norm": 301.1365404248048,
+        "max_error": 0.0096435546875
+      },
+      {
+        "name": "model.layers.19.mlp.down_proj.weight",
+        "shape": [
+          1536,
+          8960
+        ],
+        "parameters": 13762560,
+        "squared_error": 131.15658816587336,
+        "squared_norm": 10412.445248774657,
+        "max_error": 0.033203125
+      },
+      {
+        "name": "model.layers.19.mlp.gate_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 121.63094030664789,
+        "squared_norm": 10422.431548826726,
+        "max_error": 0.027587890625
+      },
+      {
+        "name": "model.layers.19.mlp.up_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 131.71225310287804,
+        "squared_norm": 11464.370386471233,
+        "max_error": 0.024810791015625
+      },
+      {
+        "name": "model.layers.19.self_attn.k_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 2.488054844710355,
+        "squared_norm": 220.18323892922803,
+        "max_error": 0.01190185546875
+      },
+      {
+        "name": "model.layers.19.self_attn.o_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 16.783197809178127,
+        "squared_norm": 1587.6067366119132,
+        "max_error": 0.029296875
+      },
+      {
+        "name": "model.layers.19.self_attn.q_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 19.01388151355713,
+        "squared_norm": 1730.2762403044246,
+        "max_error": 0.016143798828125
+      },
+      {
+        "name": "model.layers.19.self_attn.v_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 4.679531326088036,
+        "squared_norm": 303.7410136309262,
+        "max_error": 0.01287841796875
+      },
+      {
+        "name": "model.layers.2.mlp.down_proj.weight",
+        "shape": [
+          1536,
+          8960
+        ],
+        "parameters": 13762560,
+        "squared_error": 111.17929376127125,
+        "squared_norm": 9773.711640194688,
+        "max_error": 0.027984619140625
+      },
+      {
+        "name": "model.layers.2.mlp.gate_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 157.8386139663695,
+        "squared_norm": 15321.393906716821,
+        "max_error": 0.02178955078125
+      },
+      {
+        "name": "model.layers.2.mlp.up_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 103.78043634181435,
+        "squared_norm": 9857.557722828222,
+        "max_error": 0.022735595703125
+      },
+      {
+        "name": "model.layers.2.self_attn.k_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 5.625153204074788,
+        "squared_norm": 530.4037469214069,
+        "max_error": 0.015869140625
+      },
+      {
+        "name": "model.layers.2.self_attn.o_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 15.710987271455291,
+        "squared_norm": 1517.0044652418092,
+        "max_error": 0.0208740234375
+      },
+      {
+        "name": "model.layers.2.self_attn.q_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 25.532462274181952,
+        "squared_norm": 2228.8781859720975,
+        "max_error": 0.030975341796875
+      },
+      {
+        "name": "model.layers.2.self_attn.v_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 2.311643185306334,
+        "squared_norm": 209.96030662055406,
+        "max_error": 0.00750732421875
+      },
+      {
+        "name": "model.layers.20.mlp.down_proj.weight",
+        "shape": [
+          1536,
+          8960
+        ],
+        "parameters": 13762560,
+        "squared_error": 119.96298919115873,
+        "squared_norm": 10639.930351566734,
+        "max_error": 0.025970458984375
+      },
+      {
+        "name": "model.layers.20.mlp.gate_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 122.20976403288014,
+        "squared_norm": 10751.025649997173,
+        "max_error": 0.028961181640625
+      },
+      {
+        "name": "model.layers.20.mlp.up_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 127.33334035238133,
+        "squared_norm": 11635.829644500067,
+        "max_error": 0.0189208984375
+      },
+      {
+        "name": "model.layers.20.self_attn.k_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 2.6866885638078273,
+        "squared_norm": 231.16492443181005,
+        "max_error": 0.0105133056640625
+      },
+      {
+        "name": "model.layers.20.self_attn.o_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 19.081894709578755,
+        "squared_norm": 1815.35004111053,
+        "max_error": 0.033203125
+      },
+      {
+        "name": "model.layers.20.self_attn.q_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 22.35581294961179,
+        "squared_norm": 1843.1865267966637,
+        "max_error": 0.0164794921875
+      },
+      {
+        "name": "model.layers.20.self_attn.v_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 6.37666607279413,
+        "squared_norm": 436.2570628112388,
+        "max_error": 0.0126953125
+      },
+      {
+        "name": "model.layers.21.mlp.down_proj.weight",
+        "shape": [
+          1536,
+          8960
+        ],
+        "parameters": 13762560,
+        "squared_error": 123.87150512217397,
+        "squared_norm": 10779.889043177362,
+        "max_error": 0.0230712890625
+      },
+      {
+        "name": "model.layers.21.mlp.gate_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 128.32821966852194,
+        "squared_norm": 10901.88074558694,
+        "max_error": 0.02764892578125
+      },
+      {
+        "name": "model.layers.21.mlp.up_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 131.6057907941709,
+        "squared_norm": 11860.318823500707,
+        "max_error": 0.0272216796875
+      },
+      {
+        "name": "model.layers.21.self_attn.k_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 2.303067796455231,
+        "squared_norm": 204.08732712199253,
+        "max_error": 0.0093994140625
+      },
+      {
+        "name": "model.layers.21.self_attn.o_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 20.120724253313053,
+        "squared_norm": 1873.7586447515425,
+        "max_error": 0.0185546875
+      },
+      {
+        "name": "model.layers.21.self_attn.q_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 19.080498675614102,
+        "squared_norm": 1674.0181956584952,
+        "max_error": 0.0115509033203125
+      },
+      {
+        "name": "model.layers.21.self_attn.v_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 5.145274123090232,
+        "squared_norm": 433.894931630232,
+        "max_error": 0.0142059326171875
+      },
+      {
+        "name": "model.layers.22.mlp.down_proj.weight",
+        "shape": [
+          1536,
+          8960
+        ],
+        "parameters": 13762560,
+        "squared_error": 122.75751406006637,
+        "squared_norm": 10785.334728251726,
+        "max_error": 0.0252685546875
+      },
+      {
+        "name": "model.layers.22.mlp.gate_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 132.1915042706595,
+        "squared_norm": 11358.23927610677,
+        "max_error": 0.029541015625
+      },
+      {
+        "name": "model.layers.22.mlp.up_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 133.03172329585203,
+        "squared_norm": 11884.06214844912,
+        "max_error": 0.0196533203125
+      },
+      {
+        "name": "model.layers.22.self_attn.k_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 3.3178139901457904,
+        "squared_norm": 285.1350157398293,
+        "max_error": 0.01190185546875
+      },
+      {
+        "name": "model.layers.22.self_attn.o_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 19.735134241729856,
+        "squared_norm": 1859.479922485358,
+        "max_error": 0.0247802734375
+      },
+      {
+        "name": "model.layers.22.self_attn.q_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 22.562878172359408,
+        "squared_norm": 2002.6923800911447,
+        "max_error": 0.01519775390625
+      },
+      {
+        "name": "model.layers.22.self_attn.v_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 6.730899886156507,
+        "squared_norm": 386.8769391142862,
+        "max_error": 0.0155029296875
+      },
+      {
+        "name": "model.layers.23.mlp.down_proj.weight",
+        "shape": [
+          1536,
+          8960
+        ],
+        "parameters": 13762560,
+        "squared_error": 124.35390506026354,
+        "squared_norm": 11365.732989414411,
+        "max_error": 0.0318603515625
+      },
+      {
+        "name": "model.layers.23.mlp.gate_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 125.9639004054205,
+        "squared_norm": 11351.59597312084,
+        "max_error": 0.03692626953125
+      },
+      {
+        "name": "model.layers.23.mlp.up_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 132.9501308138308,
+        "squared_norm": 12215.38714838037,
+        "max_error": 0.01898193359375
+      },
+      {
+        "name": "model.layers.23.self_attn.k_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 2.4098039251149928,
+        "squared_norm": 202.04176862146795,
+        "max_error": 0.0133056640625
+      },
+      {
+        "name": "model.layers.23.self_attn.o_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 19.76024237112003,
+        "squared_norm": 1885.4080909538802,
+        "max_error": 0.0220947265625
+      },
+      {
+        "name": "model.layers.23.self_attn.q_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 21.459749058318785,
+        "squared_norm": 1864.8885537209512,
+        "max_error": 0.015350341796875
+      },
+      {
+        "name": "model.layers.23.self_attn.v_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 7.156810180249888,
+        "squared_norm": 389.80289008137555,
+        "max_error": 0.0155029296875
+      },
+      {
+        "name": "model.layers.24.mlp.down_proj.weight",
+        "shape": [
+          1536,
+          8960
+        ],
+        "parameters": 13762560,
+        "squared_error": 124.50769031771853,
+        "squared_norm": 11774.374483104926,
+        "max_error": 0.028076171875
+      },
+      {
+        "name": "model.layers.24.mlp.gate_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 120.4842957817417,
+        "squared_norm": 11222.230601477126,
+        "max_error": 0.03289794921875
+      },
+      {
+        "name": "model.layers.24.mlp.up_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 130.66151086851156,
+        "squared_norm": 12382.831787732446,
+        "max_error": 0.022705078125
+      },
+      {
+        "name": "model.layers.24.self_attn.k_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 2.7426492859386826,
+        "squared_norm": 227.29446426010426,
+        "max_error": 0.0103759765625
+      },
+      {
+        "name": "model.layers.24.self_attn.o_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 23.83302346364493,
+        "squared_norm": 2281.0882459368477,
+        "max_error": 0.0198974609375
+      },
+      {
+        "name": "model.layers.24.self_attn.q_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 20.966268444833005,
+        "squared_norm": 1796.9040679580273,
+        "max_error": 0.01629638671875
+      },
+      {
+        "name": "model.layers.24.self_attn.v_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 10.923249799997716,
+        "squared_norm": 553.5113120647795,
+        "max_error": 0.022216796875
+      },
+      {
+        "name": "model.layers.25.mlp.down_proj.weight",
+        "shape": [
+          1536,
+          8960
+        ],
+        "parameters": 13762560,
+        "squared_error": 128.92115277272066,
+        "squared_norm": 12215.135007666464,
+        "max_error": 0.02947998046875
+      },
+      {
+        "name": "model.layers.25.mlp.gate_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 115.18002035778738,
+        "squared_norm": 10793.720083581527,
+        "max_error": 0.033447265625
+      },
+      {
+        "name": "model.layers.25.mlp.up_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 134.56130322452154,
+        "squared_norm": 12734.237710001735,
+        "max_error": 0.025634765625
+      },
+      {
+        "name": "model.layers.25.self_attn.k_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 2.0077922664103482,
+        "squared_norm": 161.03417297166826,
+        "max_error": 0.0130462646484375
+      },
+      {
+        "name": "model.layers.25.self_attn.o_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 22.777883568831268,
+        "squared_norm": 2151.7061838030186,
+        "max_error": 0.03271484375
+      },
+      {
+        "name": "model.layers.25.self_attn.q_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 21.435426685836088,
+        "squared_norm": 1890.3003943893898,
+        "max_error": 0.0133056640625
+      },
+      {
+        "name": "model.layers.25.self_attn.v_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 7.4535706106128,
+        "squared_norm": 384.80040508370644,
+        "max_error": 0.01611328125
+      },
+      {
+        "name": "model.layers.26.mlp.down_proj.weight",
+        "shape": [
+          1536,
+          8960
+        ],
+        "parameters": 13762560,
+        "squared_error": 127.10036332120994,
+        "squared_norm": 11951.317491360176,
+        "max_error": 0.0277099609375
+      },
+      {
+        "name": "model.layers.26.mlp.gate_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 111.5058314328401,
+        "squared_norm": 10437.96393090148,
+        "max_error": 0.061767578125
+      },
+      {
+        "name": "model.layers.26.mlp.up_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 135.91566813639992,
+        "squared_norm": 12976.859929960296,
+        "max_error": 0.0450439453125
+      },
+      {
+        "name": "model.layers.26.self_attn.k_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 2.4515030908761375,
+        "squared_norm": 179.28437726070035,
+        "max_error": 0.01190185546875
+      },
+      {
+        "name": "model.layers.26.self_attn.o_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 27.680985429953946,
+        "squared_norm": 2700.4302587778325,
+        "max_error": 0.03125
+      },
+      {
+        "name": "model.layers.26.self_attn.q_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 20.204038616744437,
+        "squared_norm": 1718.70035329434,
+        "max_error": 0.015625
+      },
+      {
+        "name": "model.layers.26.self_attn.v_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 13.57537555131426,
+        "squared_norm": 902.1488616489805,
+        "max_error": 0.01904296875
+      },
+      {
+        "name": "model.layers.27.mlp.down_proj.weight",
+        "shape": [
+          1536,
+          8960
+        ],
+        "parameters": 13762560,
+        "squared_error": 105.81084279097686,
+        "squared_norm": 8819.690199668345,
+        "max_error": 0.05023193359375
+      },
+      {
+        "name": "model.layers.27.mlp.gate_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 113.92452274164323,
+        "squared_norm": 10579.021257635013,
+        "max_error": 0.025634765625
+      },
+      {
+        "name": "model.layers.27.mlp.up_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 118.58024969580457,
+        "squared_norm": 11139.495453067702,
+        "max_error": 0.020751953125
+      },
+      {
+        "name": "model.layers.27.self_attn.k_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 1.9279849865268304,
+        "squared_norm": 138.19366993629484,
+        "max_error": 0.011962890625
+      },
+      {
+        "name": "model.layers.27.self_attn.o_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 28.217811962991114,
+        "squared_norm": 2695.5965924197712,
+        "max_error": 0.058837890625
+      },
+      {
+        "name": "model.layers.27.self_attn.q_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 19.349620713658933,
+        "squared_norm": 1617.0669060216853,
+        "max_error": 0.01458740234375
+      },
+      {
+        "name": "model.layers.27.self_attn.v_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 13.022899581316068,
+        "squared_norm": 802.9460176417999,
+        "max_error": 0.0213623046875
+      },
+      {
+        "name": "model.layers.3.mlp.down_proj.weight",
+        "shape": [
+          1536,
+          8960
+        ],
+        "parameters": 13762560,
+        "squared_error": 100.2779470289473,
+        "squared_norm": 8962.465964103721,
+        "max_error": 0.028411865234375
+      },
+      {
+        "name": "model.layers.3.mlp.gate_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 171.872078592544,
+        "squared_norm": 16476.395869127846,
+        "max_error": 0.016845703125
+      },
+      {
+        "name": "model.layers.3.mlp.up_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 96.14672425800079,
+        "squared_norm": 9179.908370293077,
+        "max_error": 0.026214599609375
+      },
+      {
+        "name": "model.layers.3.self_attn.k_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 5.3888511813871816,
+        "squared_norm": 492.25896293224804,
+        "max_error": 0.013763427734375
+      },
+      {
+        "name": "model.layers.3.self_attn.o_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 16.318228995891268,
+        "squared_norm": 1557.314817628705,
+        "max_error": 0.02227783203125
+      },
+      {
+        "name": "model.layers.3.self_attn.q_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 25.341643622104275,
+        "squared_norm": 2326.6867039160124,
+        "max_error": 0.01422119140625
+      },
+      {
+        "name": "model.layers.3.self_attn.v_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 3.0386894207048556,
+        "squared_norm": 268.0392469462539,
+        "max_error": 0.008636474609375
+      },
+      {
+        "name": "model.layers.4.mlp.down_proj.weight",
+        "shape": [
+          1536,
+          8960
+        ],
+        "parameters": 13762560,
+        "squared_error": 103.78329669901181,
+        "squared_norm": 9241.013411617736,
+        "max_error": 0.02935791015625
+      },
+      {
+        "name": "model.layers.4.mlp.gate_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 158.62910029702343,
+        "squared_norm": 14867.801816108757,
+        "max_error": 0.0234375
+      },
+      {
+        "name": "model.layers.4.mlp.up_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 99.40262936691934,
+        "squared_norm": 9409.666546485854,
+        "max_error": 0.01611328125
+      },
+      {
+        "name": "model.layers.4.self_attn.k_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 4.586870136152708,
+        "squared_norm": 434.910495584087,
+        "max_error": 0.0107421875
+      },
+      {
+        "name": "model.layers.4.self_attn.o_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 16.743221422126773,
+        "squared_norm": 1613.0938177487883,
+        "max_error": 0.0247802734375
+      },
+      {
+        "name": "model.layers.4.self_attn.q_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 23.685525770815236,
+        "squared_norm": 2204.339253033751,
+        "max_error": 0.01531982421875
+      },
+      {
+        "name": "model.layers.4.self_attn.v_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 3.1682534878869077,
+        "squared_norm": 296.12430738123066,
+        "max_error": 0.0079498291015625
+      },
+      {
+        "name": "model.layers.5.mlp.down_proj.weight",
+        "shape": [
+          1536,
+          8960
+        ],
+        "parameters": 13762560,
+        "squared_error": 102.10106985149321,
+        "squared_norm": 9102.899314381115,
+        "max_error": 0.03759765625
+      },
+      {
+        "name": "model.layers.5.mlp.gate_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 156.99851989603934,
+        "squared_norm": 15156.48541313608,
+        "max_error": 0.01531982421875
+      },
+      {
+        "name": "model.layers.5.mlp.up_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 102.38432687782883,
+        "squared_norm": 9688.368402923175,
+        "max_error": 0.0294189453125
+      },
+      {
+        "name": "model.layers.5.self_attn.k_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 4.880205832348285,
+        "squared_norm": 361.19629444643147,
+        "max_error": 0.0133514404296875
+      },
+      {
+        "name": "model.layers.5.self_attn.o_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 18.86176650626146,
+        "squared_norm": 1776.849075264549,
+        "max_error": 0.023681640625
+      },
+      {
+        "name": "model.layers.5.self_attn.q_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 23.245705242229718,
+        "squared_norm": 1962.7303183373551,
+        "max_error": 0.014739990234375
+      },
+      {
+        "name": "model.layers.5.self_attn.v_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 4.2592032130783295,
+        "squared_norm": 358.5579454856348,
+        "max_error": 0.0120849609375
+      },
+      {
+        "name": "model.layers.6.mlp.down_proj.weight",
+        "shape": [
+          1536,
+          8960
+        ],
+        "parameters": 13762560,
+        "squared_error": 113.87160839511539,
+        "squared_norm": 10223.145816714845,
+        "max_error": 0.03369140625
+      },
+      {
+        "name": "model.layers.6.mlp.gate_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 134.37202667286445,
+        "squared_norm": 12704.318142377742,
+        "max_error": 0.02392578125
+      },
+      {
+        "name": "model.layers.6.mlp.up_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 113.30897864981668,
+        "squared_norm": 10614.64876630142,
+        "max_error": 0.0233154296875
+      },
+      {
+        "name": "model.layers.6.self_attn.k_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 5.423112826854386,
+        "squared_norm": 435.9910241026769,
+        "max_error": 0.013702392578125
+      },
+      {
+        "name": "model.layers.6.self_attn.o_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 14.536036323193432,
+        "squared_norm": 1355.350852773348,
+        "max_error": 0.03192138671875
+      },
+      {
+        "name": "model.layers.6.self_attn.q_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 26.271705752345074,
+        "squared_norm": 2175.921165568847,
+        "max_error": 0.022491455078125
+      },
+      {
+        "name": "model.layers.6.self_attn.v_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 3.239852428001665,
+        "squared_norm": 276.68541680497776,
+        "max_error": 0.008453369140625
+      },
+      {
+        "name": "model.layers.7.mlp.down_proj.weight",
+        "shape": [
+          1536,
+          8960
+        ],
+        "parameters": 13762560,
+        "squared_error": 124.43166196669509,
+        "squared_norm": 10638.21888932196,
+        "max_error": 0.03662109375
+      },
+      {
+        "name": "model.layers.7.mlp.gate_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 127.88419026844085,
+        "squared_norm": 11984.995229777376,
+        "max_error": 0.022216796875
+      },
+      {
+        "name": "model.layers.7.mlp.up_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 121.68854612781489,
+        "squared_norm": 11073.108252504011,
+        "max_error": 0.024261474609375
+      },
+      {
+        "name": "model.layers.7.self_attn.k_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 4.290500682019875,
+        "squared_norm": 398.22890055572293,
+        "max_error": 0.0114593505859375
+      },
+      {
+        "name": "model.layers.7.self_attn.o_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 16.621551244942758,
+        "squared_norm": 1571.6214151386532,
+        "max_error": 0.0352783203125
+      },
+      {
+        "name": "model.layers.7.self_attn.q_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 22.111138741466256,
+        "squared_norm": 2056.974271872174,
+        "max_error": 0.0224609375
+      },
+      {
+        "name": "model.layers.7.self_attn.v_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 3.416209229306318,
+        "squared_norm": 300.8594544556636,
+        "max_error": 0.00921630859375
+      },
+      {
+        "name": "model.layers.8.mlp.down_proj.weight",
+        "shape": [
+          1536,
+          8960
+        ],
+        "parameters": 13762560,
+        "squared_error": 115.84729548236628,
+        "squared_norm": 10258.188296107479,
+        "max_error": 0.038818359375
+      },
+      {
+        "name": "model.layers.8.mlp.gate_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 125.48619050135464,
+        "squared_norm": 11867.141027540209,
+        "max_error": 0.023040771484375
+      },
+      {
+        "name": "model.layers.8.mlp.up_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 115.91065438875684,
+        "squared_norm": 10795.17299709659,
+        "max_error": 0.032958984375
+      },
+      {
+        "name": "model.layers.8.self_attn.k_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 4.53897792261737,
+        "squared_norm": 388.93987205192417,
+        "max_error": 0.0164794921875
+      },
+      {
+        "name": "model.layers.8.self_attn.o_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 16.51026359353212,
+        "squared_norm": 1534.125202192013,
+        "max_error": 0.01904296875
+      },
+      {
+        "name": "model.layers.8.self_attn.q_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 25.30076429748869,
+        "squared_norm": 2153.4908702032226,
+        "max_error": 0.02972412109375
+      },
+      {
+        "name": "model.layers.8.self_attn.v_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 2.973548482466846,
+        "squared_norm": 269.14801661185993,
+        "max_error": 0.0079345703125
+      },
+      {
+        "name": "model.layers.9.mlp.down_proj.weight",
+        "shape": [
+          1536,
+          8960
+        ],
+        "parameters": 13762560,
+        "squared_error": 117.03759074025787,
+        "squared_norm": 10339.383184911345,
+        "max_error": 0.041015625
+      },
+      {
+        "name": "model.layers.9.mlp.gate_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 119.64209226032277,
+        "squared_norm": 11251.080196093924,
+        "max_error": 0.022064208984375
+      },
+      {
+        "name": "model.layers.9.mlp.up_proj.weight",
+        "shape": [
+          8960,
+          1536
+        ],
+        "parameters": 13762560,
+        "squared_error": 116.46633886647014,
+        "squared_norm": 10822.364141722303,
+        "max_error": 0.0208740234375
+      },
+      {
+        "name": "model.layers.9.self_attn.k_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 4.831693986137822,
+        "squared_norm": 420.60773475227495,
+        "max_error": 0.0125732421875
+      },
+      {
+        "name": "model.layers.9.self_attn.o_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 15.842363583601418,
+        "squared_norm": 1522.2036080997566,
+        "max_error": 0.0460205078125
+      },
+      {
+        "name": "model.layers.9.self_attn.q_proj.weight",
+        "shape": [
+          1536,
+          1536
+        ],
+        "parameters": 2359296,
+        "squared_error": 23.63110418405543,
+        "squared_norm": 2173.435585035243,
+        "max_error": 0.01800537109375
+      },
+      {
+        "name": "model.layers.9.self_attn.v_proj.weight",
+        "shape": [
+          256,
+          1536
+        ],
+        "parameters": 393216,
+        "squared_error": 2.890907377625208,
+        "squared_norm": 265.0531637483894,
+        "max_error": 0.008209228515625
+      }
+    ],
+    "other_tensor_count": 142,
+    "int4_file_bytes": 1147806360
+  },
+  "cases": [
+    {
+      "category": "Calcul",
+      "question": "Quel est le reste de la division euclidienne de 157 par 12 ?",
+      "expected": "A",
+      "options": [
+        "1",
+        "7",
+        "11",
+        "13"
+      ],
+      "prompt": "Quel est le reste de la division euclidienne de 157 par 12 ?\nA. 1\nB. 7\nC. 11\nD. 13\nRéponds uniquement par la lettre A, B, C ou D.",
+      "max_tokens": 1,
+      "fp16_response": "B",
+      "int4_response": "B",
+      "fp16_label": "B",
+      "int4_label": "B"
+    },
+    {
+      "category": "Calcul",
+      "question": "Quel est le produit de 17 par 19 ?",
+      "expected": "C",
+      "options": [
+        "303",
+        "313",
+        "323",
+        "343"
+      ],
+      "prompt": "Quel est le produit de 17 par 19 ?\nA. 303\nB. 313\nC. 323\nD. 343\nRéponds uniquement par la lettre A, B, C ou D.",
+      "max_tokens": 1,
+      "fp16_response": "C",
+      "int4_response": "C",
+      "fp16_label": "C",
+      "int4_label": "C"
+    },
+    {
+      "category": "Calcul",
+      "question": "Combien vaut 3/8 + 1/6 ?",
+      "expected": "D",
+      "options": [
+        "4/14",
+        "7/24",
+        "1/2",
+        "13/24"
+      ],
+      "prompt": "Combien vaut 3/8 + 1/6 ?\nA. 4/14\nB. 7/24\nC. 1/2\nD. 13/24\nRéponds uniquement par la lettre A, B, C ou D.",
+      "max_tokens": 1,
+      "fp16_response": "B",
+      "int4_response": "D",
+      "fp16_label": "B",
+      "int4_label": "D"
+    },
+    {
+      "category": "Calcul",
+      "question": "Un prix de 80 € augmente de 25 %, puis diminue de 20 %. Quel est le prix final ?",
+      "expected": "B",
+      "options": [
+        "76 €",
+        "80 €",
+        "84 €",
+        "85 €"
+      ],
+      "prompt": "Un prix de 80 € augmente de 25 %, puis diminue de 20 %. Quel est le prix final ?\nA. 76 €\nB. 80 €\nC. 84 €\nD. 85 €\nRéponds uniquement par la lettre A, B, C ou D.",
+      "max_tokens": 1,
+      "fp16_response": "B",
+      "int4_response": "C",
+      "fp16_label": "B",
+      "int4_label": "C"
+    },
+    {
+      "category": "Calcul",
+      "question": "Quel est le plus grand commun diviseur de 84 et 126 ?",
+      "expected": "C",
+      "options": [
+        "14",
+        "21",
+        "42",
+        "63"
+      ],
+      "prompt": "Quel est le plus grand commun diviseur de 84 et 126 ?\nA. 14\nB. 21\nC. 42\nD. 63\nRéponds uniquement par la lettre A, B, C ou D.",
+      "max_tokens": 1,
+      "fp16_response": "C",
+      "int4_response": "C",
+      "fp16_label": "C",
+      "int4_label": "C"
+    },
+    {
+      "category": "Calcul",
+      "question": "Quel est le plus petit multiple commun de 12 et 18 ?",
+      "expected": "A",
+      "options": [
+        "36",
+        "48",
+        "54",
+        "72"
+      ],
+      "prompt": "Quel est le plus petit multiple commun de 12 et 18 ?\nA. 36\nB. 48\nC. 54\nD. 72\nRéponds uniquement par la lettre A, B, C ou D.",
+      "max_tokens": 1,
+      "fp16_response": "D",
+      "int4_response": "A",
+      "fp16_label": "D",
+      "int4_label": "A"
+    },
+    {
+      "category": "Calcul",
+      "question": "Que vaut 2 puissance 10 ?",
+      "expected": "B",
+      "options": [
+        "1000",
+        "1024",
+        "2048",
+        "512"
+      ],
+      "prompt": "Que vaut 2 puissance 10 ?\nA. 1000\nB. 1024\nC. 2048\nD. 512\nRéponds uniquement par la lettre A, B, C ou D.",
+      "max_tokens": 1,
+      "fp16_response": "A",
+      "int4_response": "C",
+      "fp16_label": "A",
+      "int4_label": "C"
+    },
+    {
+      "category": "Calcul",
+      "question": "Combien de secondes y a-t-il dans 2 h 15 min ?",
+      "expected": "D",
+      "options": [
+        "7200",
+        "7500",
+        "7800",
+        "8100"
+      ],
+      "prompt": "Combien de secondes y a-t-il dans 2 h 15 min ?\nA. 7200\nB. 7500\nC. 7800\nD. 8100\nRéponds uniquement par la lettre A, B, C ou D.",
+      "max_tokens": 1,
+      "fp16_response": "B",
+      "int4_response": "B",
+      "fp16_label": "B",
+      "int4_label": "B"
+    },
+    {
+      "category": "Calcul",
+      "question": "Quelle est la moyenne de 7, 9, 12 et 16 ?",
+      "expected": "B",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "prompt": "Quelle est la moyenne de 7, 9, 12 et 16 ?\nA. 10\nB. 11\nC. 12\nD. 13\nRéponds uniquement par la lettre A, B, C ou D.",
+      "max_tokens": 1,
+      "fp16_response": "B",
+      "int4_response": "A",
+      "fp16_label": "B",
+      "int4_label": "A"
+    },
+    {
+      "category": "Calcul",
+      "question": "Une machine produit 18 pièces en 12 minutes à cadence constante. Combien en produit-elle en 50 minutes ?",
+      "expected": "C",
+      "options": [
+        "60",
+        "72",
+        "75",
+        "90"
+      ],
+      "prompt": "Une machine produit 18 pièces en 12 minutes à cadence constante. Combien en produit-elle en 50 minutes ?\nA. 60\nB. 72\nC. 75\nD. 90\nRéponds uniquement par la lettre A, B, C ou D.",
+      "max_tokens": 1,
+      "fp16_response": "B",
+      "int4_response": "B",
+      "fp16_label": "B",
+      "int4_label": "B"
+    },
+    {
+      "category": "Mathématiques",
+      "question": "La suite commence par 2, 5, 11, 23. Chaque terme est le double du précédent plus 1. Quel est le terme suivant ?",
+      "expected": "A",
+      "options": [
+        "47",
+        "46",
+        "48",
+        "45"
+      ],
+      "prompt": "La suite commence par 2, 5, 11, 23. Chaque terme est le double du précédent plus 1. Quel est le terme suivant ?\nA. 47\nB. 46\nC. 48\nD. 45\nRéponds uniquement par la lettre A, B, C ou D.",
+      "max_tokens": 1,
+      "fp16_response": "A",
+      "int4_response": "A",
+      "fp16_label": "A",
+      "int4_label": "A"
+    },
+    {
+      "category": "Mathématiques",
+      "question": "Si 4x − 7 = 2x + 5, combien vaut x ?",
+      "expected": "D",
+      "options": [
+        "−6",
+        "2",
+        "5",
+        "6"
+      ],
+      "prompt": "Si 4x − 7 = 2x + 5, combien vaut x ?\nA. −6\nB. 2\nC. 5\nD. 6\nRéponds uniquement par la lettre A, B, C ou D.",
+      "max_tokens": 1,
+      "fp16_response": "B",
+      "int4_response": "B",
+      "fp16_label": "B",
+      "int4_label": "B"
+    },
+    {
+      "category": "Mathématiques",
+      "question": "Quel est le déterminant de la matrice de lignes (2, 3) et (5, 7) ?",
+      "expected": "C",
+      "options": [
+        "1",
+        "29",
+        "−1",
+        "−29"
+      ],
+      "prompt": "Quel est le déterminant de la matrice de lignes (2, 3) et (5, 7) ?\nA. 1\nB. 29\nC. −1\nD. −29\nRéponds uniquement par la lettre A, B, C ou D.",
+      "max_tokens": 1,
+      "fp16_response": "B",
+      "int4_response": "B",
+      "fp16_label": "B",
+      "int4_label": "B"
+    },
+    {
+      "category": "Mathématiques",
+      "question": "Dans le plan, quelle est la distance entre (1, 2) et (4, 6) ?",
+      "expected": "A",
+      "options": [
+        "5",
+        "7",
+        "25",
+        "4"
+      ],
+      "prompt": "Dans le plan, quelle est la distance entre (1, 2) et (4, 6) ?\nA. 5\nB. 7\nC. 25\nD. 4\nRéponds uniquement par la lettre A, B, C ou D.",
+      "max_tokens": 1,
+      "fp16_response": "A",
+      "int4_response": "B",
+      "fp16_label": "A",
+      "int4_label": "B"
+    },
+    {
+      "category": "Mathématiques",
+      "question": "Quel est le coefficient de x dans le développement de (x − 3)(x + 5) ?",
+      "expected": "D",
+      "options": [
+        "−15",
+        "−2",
+        "8",
+        "2"
+      ],
+      "prompt": "Quel est le coefficient de x dans le développement de (x − 3)(x + 5) ?\nA. −15\nB. −2\nC. 8\nD. 2\nRéponds uniquement par la lettre A, B, C ou D.",
+      "max_tokens": 1,
+      "fp16_response": "A",
+      "int4_response": "A",
+      "fp16_label": "A",
+      "int4_label": "A"
+    },
+    {
+      "category": "Mathématiques",
+      "question": "Quelle est la dérivée de x³ − 2x ?",
+      "expected": "B",
+      "options": [
+        "x² − 2",
+        "3x² − 2",
+        "3x − 2",
+        "3x²"
+      ],
+      "prompt": "Quelle est la dérivée de x³ − 2x ?\nA. x² − 2\nB. 3x² − 2\nC. 3x − 2\nD. 3x²\nRéponds uniquement par la lettre A, B, C ou D.",
+      "max_tokens": 1,
+      "fp16_response": "B",
+      "int4_response": "B",
+      "fp16_label": "B",
+      "int4_label": "B"
+    },
+    {
+      "category": "Mathématiques",
+      "question": "On tire une boule uniformément parmi 4 rouges et 6 bleues. Quelle est la probabilité de tirer une rouge ?",
+      "expected": "C",
+      "options": [
+        "3/5",
+        "2/3",
+        "2/5",
+        "1/4"
+      ],
+      "prompt": "On tire une boule uniformément parmi 4 rouges et 6 bleues. Quelle est la probabilité de tirer une rouge ?\nA. 3/5\nB. 2/3\nC. 2/5\nD. 1/4\nRéponds uniquement par la lettre A, B, C ou D.",
+      "max_tokens": 1,
+      "fp16_response": "A",
+      "int4_response": "C",
+      "fp16_label": "A",
+      "int4_label": "C"
+    },
+    {
+      "category": "Mathématiques",
+      "question": "Combien de sous-ensembles à deux éléments possède un ensemble à cinq éléments ?",
+      "expected": "A",
+      "options": [
+        "10",
+        "5",
+        "20",
+        "25"
+      ],
+      "prompt": "Combien de sous-ensembles à deux éléments possède un ensemble à cinq éléments ?\nA. 10\nB. 5\nC. 20\nD. 25\nRéponds uniquement par la lettre A, B, C ou D.",
+      "max_tokens": 1,
+      "fp16_response": "C",
+      "int4_response": "C",
+      "fp16_label": "C",
+      "int4_label": "C"
+    },
+    {
+      "category": "Mathématiques",
+      "question": "On lance deux dés équilibrés à six faces. Quelle est la probabilité que la somme vaille 7 ?",
+      "expected": "D",
+      "options": [
+        "1/12",
+        "1/7",
+        "5/36",
+        "1/6"
+      ],
+      "prompt": "On lance deux dés équilibrés à six faces. Quelle est la probabilité que la somme vaille 7 ?\nA. 1/12\nB. 1/7\nC. 5/36\nD. 1/6\nRéponds uniquement par la lettre A, B, C ou D.",
+      "max_tokens": 1,
+      "fp16_response": "C",
+      "int4_response": "C",
+      "fp16_label": "C",
+      "int4_label": "C"
+    },
+    {
+      "category": "Mathématiques",
+      "question": "Quel est le rang de la matrice de lignes (1, 2) et (2, 4) ?",
+      "expected": "B",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "4"
+      ],
+      "prompt": "Quel est le rang de la matrice de lignes (1, 2) et (2, 4) ?\nA. 0\nB. 1\nC. 2\nD. 4\nRéponds uniquement par la lettre A, B, C ou D.",
+      "max_tokens": 1,
+      "fp16_response": "C",
+      "int4_response": "C",
+      "fp16_label": "C",
+      "int4_label": "C"
+    },
+    {
+      "category": "Logique",
+      "question": "Tous les membres du club portent un badge. Léa est membre du club. Quelle conclusion est certaine ?",
+      "expected": "D",
+      "options": [
+        "Léa dirige le club.",
+        "Tout porteur d’un badge en est membre.",
+        "Léa ne porte pas de badge.",
+        "Léa porte un badge."
+      ],
+      "prompt": "Tous les membres du club portent un badge. Léa est membre du club. Quelle conclusion est certaine ?\nA. Léa dirige le club.\nB. Tout porteur d’un badge en est membre.\nC. Léa ne porte pas de badge.\nD. Léa porte un badge.\nRéponds uniquement par la lettre A, B, C ou D.",
+      "max_tokens": 1,
+      "fp16_response": "D",
+      "int4_response": "D",
+      "fp16_label": "D",
+      "int4_label": "D"
+    },
+    {
+      "category": "Logique",
+      "question": "Un feu allumé implique que la porte est ouverte. La porte est fermée. Que peut-on déduire ?",
+      "expected": "B",
+      "options": [
+        "La porte est verrouillée.",
+        "Le feu est éteint.",
+        "Le feu est allumé.",
+        "Le feu ne peut jamais s’allumer."
+      ],
+      "prompt": "Un feu allumé implique que la porte est ouverte. La porte est fermée. Que peut-on déduire ?\nA. La porte est verrouillée.\nB. Le feu est éteint.\nC. Le feu est allumé.\nD. Le feu ne peut jamais s’allumer.\nRéponds uniquement par la lettre A, B, C ou D.",
+      "max_tokens": 1,
+      "fp16_response": "B",
+      "int4_response": "B",
+      "fp16_label": "B",
+      "int4_label": "B"
+    },
+    {
+      "category": "Logique",
+      "question": "Certains livres sont bleus. Aucun objet bleu n’est rouge. Quelle conclusion suit ?",
+      "expected": "A",
+      "options": [
+        "Certains livres ne sont pas rouges.",
+        "Tous les livres sont bleus.",
+        "Certains livres sont rouges.",
+        "Aucun livre n’est rouge."
+      ],
+      "prompt": "Certains livres sont bleus. Aucun objet bleu n’est rouge. Quelle conclusion suit ?\nA. Certains livres ne sont pas rouges.\nB. Tous les livres sont bleus.\nC. Certains livres sont rouges.\nD. Aucun livre n’est rouge.\nRéponds uniquement par la lettre A, B, C ou D.",
+      "max_tokens": 1,
+      "fp16_response": "D",
+      "int4_response": "D",
+      "fp16_label": "D",
+      "int4_label": "D"
+    },
+    {
+      "category": "Logique",
+      "question": "Camille arrive avant Zoé. Nour arrive après Camille et avant Zoé. Qui arrive en deuxième parmi les trois ?",
+      "expected": "C",
+      "options": [
+        "Camille",
+        "Zoé",
+        "Nour",
+        "Impossible à déterminer"
+      ],
+      "prompt": "Camille arrive avant Zoé. Nour arrive après Camille et avant Zoé. Qui arrive en deuxième parmi les trois ?\nA. Camille\nB. Zoé\nC. Nour\nD. Impossible à déterminer\nRéponds uniquement par la lettre A, B, C ou D.",
+      "max_tokens": 1,
+      "fp16_response": "B",
+      "int4_response": "C",
+      "fp16_label": "B",
+      "int4_label": "C"
+    },
+    {
+      "category": "Logique",
+      "question": "Exactement l’une des réponses suivantes est vraie au sujet de deux interrupteurs. Le premier est éteint, le second est allumé. Quelle réponse est vraie ?",
+      "expected": "D",
+      "options": [
+        "Les deux sont allumés.",
+        "Le premier est allumé.",
+        "Les deux sont éteints.",
+        "Un seul est allumé."
+      ],
+      "prompt": "Exactement l’une des réponses suivantes est vraie au sujet de deux interrupteurs. Le premier est éteint, le second est allumé. Quelle réponse est vraie ?\nA. Les deux sont allumés.\nB. Le premier est allumé.\nC. Les deux sont éteints.\nD. Un seul est allumé.\nRéponds uniquement par la lettre A, B, C ou D.",
+      "max_tokens": 1,
+      "fp16_response": "C",
+      "int4_response": "C",
+      "fp16_label": "C",
+      "int4_label": "C"
+    },
+    {
+      "category": "Logique",
+      "question": "Si la boîte contient une bille verte, elle contient aussi une bille bleue. Elle contient une bille bleue. Que sait-on de la présence d’une bille verte ?",
+      "expected": "C",
+      "options": [
+        "Elle est certaine.",
+        "Elle est impossible.",
+        "Elle est indéterminée.",
+        "Elle dépend du nombre de boîtes."
+      ],
+      "prompt": "Si la boîte contient une bille verte, elle contient aussi une bille bleue. Elle contient une bille bleue. Que sait-on de la présence d’une bille verte ?\nA. Elle est certaine.\nB. Elle est impossible.\nC. Elle est indéterminée.\nD. Elle dépend du nombre de boîtes.\nRéponds uniquement par la lettre A, B, C ou D.",
+      "max_tokens": 1,
+      "fp16_response": "C",
+      "int4_response": "C",
+      "fp16_label": "C",
+      "int4_label": "C"
+    },
+    {
+      "category": "Logique",
+      "question": "Une carte n’est acceptée que si elle est signée. La carte est acceptée. Que sait-on ?",
+      "expected": "B",
+      "options": [
+        "La carte est bleue.",
+        "La carte est signée.",
+        "Toutes les cartes signées sont acceptées.",
+        "La carte n’est pas signée."
+      ],
+      "prompt": "Une carte n’est acceptée que si elle est signée. La carte est acceptée. Que sait-on ?\nA. La carte est bleue.\nB. La carte est signée.\nC. Toutes les cartes signées sont acceptées.\nD. La carte n’est pas signée.\nRéponds uniquement par la lettre A, B, C ou D.",
+      "max_tokens": 1,
+      "fp16_response": "B",
+      "int4_response": "B",
+      "fp16_label": "B",
+      "int4_label": "B"
+    },
+    {
+      "category": "Logique",
+      "question": "Combien de paires distinctes de personnes peut-on former parmi Anne, Bilal et Chloé, en ignorant l’ordre ?",
+      "expected": "A",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "6"
+      ],
+      "prompt": "Combien de paires distinctes de personnes peut-on former parmi Anne, Bilal et Chloé, en ignorant l’ordre ?\nA. 3\nB. 2\nC. 4\nD. 6\nRéponds uniquement par la lettre A, B, C ou D.",
+      "max_tokens": 1,
+      "fp16_response": "A",
+      "int4_response": "D",
+      "fp16_label": "A",
+      "int4_label": "D"
+    },
+    {
+      "category": "Logique",
+      "question": "Quelle est la négation de « tous les carrés du dessin sont bleus » ?",
+      "expected": "C",
+      "options": [
+        "Aucun carré n’est bleu.",
+        "Tous les carrés ne sont pas bleus et il n’y a aucun carré bleu.",
+        "Au moins un carré du dessin n’est pas bleu.",
+        "Au moins un carré est bleu."
+      ],
+      "prompt": "Quelle est la négation de « tous les carrés du dessin sont bleus » ?\nA. Aucun carré n’est bleu.\nB. Tous les carrés ne sont pas bleus et il n’y a aucun carré bleu.\nC. Au moins un carré du dessin n’est pas bleu.\nD. Au moins un carré est bleu.\nRéponds uniquement par la lettre A, B, C ou D.",
+      "max_tokens": 1,
+      "fp16_response": "C",
+      "int4_response": "C",
+      "fp16_label": "C",
+      "int4_label": "C"
+    },
+    {
+      "category": "Logique",
+      "question": "Cinq personnes sont dans une file. Iris est troisième depuis le début. Quelle est sa position depuis la fin ?",
+      "expected": "B",
+      "options": [
+        "Deuxième",
+        "Troisième",
+        "Quatrième",
+        "Cinquième"
+      ],
+      "prompt": "Cinq personnes sont dans une file. Iris est troisième depuis le début. Quelle est sa position depuis la fin ?\nA. Deuxième\nB. Troisième\nC. Quatrième\nD. Cinquième\nRéponds uniquement par la lettre A, B, C ou D.",
+      "max_tokens": 1,
+      "fp16_response": "D",
+      "int4_response": "D",
+      "fp16_label": "D",
+      "int4_label": "D"
+    },
+    {
+      "category": "Lecture",
+      "question": "Le train quitte Tours à 9 h 12 et arrive à Poitiers à 10 h 01. Quelle est la durée du trajet ?",
+      "expected": "A",
+      "options": [
+        "49 minutes",
+        "39 minutes",
+        "51 minutes",
+        "59 minutes"
+      ],
+      "prompt": "Le train quitte Tours à 9 h 12 et arrive à Poitiers à 10 h 01. Quelle est la durée du trajet ?\nA. 49 minutes\nB. 39 minutes\nC. 51 minutes\nD. 59 minutes\nRéponds uniquement par la lettre A, B, C ou D.",
+      "max_tokens": 1,
+      "fp16_response": "A",
+      "int4_response": "B",
+      "fp16_label": "A",
+      "int4_label": "B"
+    },
+    {
+      "category": "Lecture",
+      "question": "Le musée ferme le mardi. Le lundi, l’entrée est gratuite. Quel jour est gratuit d’après le texte ?",
+      "expected": "D",
+      "options": [
+        "Mardi",
+        "Jeudi",
+        "Dimanche",
+        "Lundi"
+      ],
+      "prompt": "Le musée ferme le mardi. Le lundi, l’entrée est gratuite. Quel jour est gratuit d’après le texte ?\nA. Mardi\nB. Jeudi\nC. Dimanche\nD. Lundi\nRéponds uniquement par la lettre A, B, C ou D.",
+      "max_tokens": 1,
+      "fp16_response": "D",
+      "int4_response": "D",
+      "fp16_label": "D",
+      "int4_label": "D"
+    },
+    {
+      "category": "Lecture",
+      "question": "Lina a rangé le carnet dans le tiroir et le stylo dans le sac. Où se trouve le carnet ?",
+      "expected": "A",
+      "options": [
+        "Le tiroir",
+        "Le sac",
+        "La poche",
+        "Le bureau"
+      ],
+      "prompt": "Lina a rangé le carnet dans le tiroir et le stylo dans le sac. Où se trouve le carnet ?\nA. Le tiroir\nB. Le sac\nC. La poche\nD. Le bureau\nRéponds uniquement par la lettre A, B, C ou D.",
+      "max_tokens": 1,
+      "fp16_response": "A",
+      "int4_response": "A",
+      "fp16_label": "A",
+      "int4_label": "A"
+    },
+    {
+      "category": "Lecture",
+      "question": "Le colis de Max est arrivé vendredi, deux jours après son envoi. Quel jour a-t-il été envoyé ?",
+      "expected": "B",
+      "options": [
+        "Mardi",
+        "Mercredi",
+        "Jeudi",
+        "Samedi"
+      ],
+      "prompt": "Le colis de Max est arrivé vendredi, deux jours après son envoi. Quel jour a-t-il été envoyé ?\nA. Mardi\nB. Mercredi\nC. Jeudi\nD. Samedi\nRéponds uniquement par la lettre A, B, C ou D.",
+      "max_tokens": 1,
+      "fp16_response": "B",
+      "int4_response": "C",
+      "fp16_label": "B",
+      "int4_label": "C"
+    },
+    {
+      "category": "Lecture",
+      "question": "Le refuge est accessible par le pont, fermé après 20 h, ou par le sentier, ouvert toute la nuit. Quel accès est indiqué à 22 h ?",
+      "expected": "D",
+      "options": [
+        "Le pont",
+        "Les deux",
+        "Ni l’un ni l’autre",
+        "Le sentier"
+      ],
+      "prompt": "Le refuge est accessible par le pont, fermé après 20 h, ou par le sentier, ouvert toute la nuit. Quel accès est indiqué à 22 h ?\nA. Le pont\nB. Les deux\nC. Ni l’un ni l’autre\nD. Le sentier\nRéponds uniquement par la lettre A, B, C ou D.",
+      "max_tokens": 1,
+      "fp16_response": "D",
+      "int4_response": "D",
+      "fp16_label": "D",
+      "int4_label": "D"
+    },
+    {
+      "category": "Lecture",
+      "question": "Jules prête trois BD à Inès et une à Mei. Le lendemain, Inès en rend deux. Combien de ses BD sont encore empruntées ?",
+      "expected": "C",
+      "options": [
+        "1",
+        "3",
+        "2",
+        "4"
+      ],
+      "prompt": "Jules prête trois BD à Inès et une à Mei. Le lendemain, Inès en rend deux. Combien de ses BD sont encore empruntées ?\nA. 1\nB. 3\nC. 2\nD. 4\nRéponds uniquement par la lettre A, B, C ou D.",
+      "max_tokens": 1,
+      "fp16_response": "B",
+      "int4_response": "C",
+      "fp16_label": "B",
+      "int4_label": "C"
+    },
+    {
+      "category": "Lecture",
+      "question": "Le rapport doit être remis avant jeudi. Nora l’a envoyé mercredi. Le rapport est-il arrivé dans les délais si l’envoi est reçu immédiatement ?",
+      "expected": "A",
+      "options": [
+        "Oui",
+        "Non",
+        "Seulement si jeudi est férié",
+        "La date d’envoi manque"
+      ],
+      "prompt": "Le rapport doit être remis avant jeudi. Nora l’a envoyé mercredi. Le rapport est-il arrivé dans les délais si l’envoi est reçu immédiatement ?\nA. Oui\nB. Non\nC. Seulement si jeudi est férié\nD. La date d’envoi manque\nRéponds uniquement par la lettre A, B, C ou D.",
+      "max_tokens": 1,
+      "fp16_response": "B",
+      "int4_response": "B",
+      "fp16_label": "B",
+      "int4_label": "B"
+    },
+    {
+      "category": "Lecture",
+      "question": "Le billet inclut le trajet et un bagage. Le repas se paie à part. Qu’est-ce qui n’est pas inclus ?",
+      "expected": "C",
+      "options": [
+        "Le trajet",
+        "Le bagage",
+        "Le repas",
+        "Le billet"
+      ],
+      "prompt": "Le billet inclut le trajet et un bagage. Le repas se paie à part. Qu’est-ce qui n’est pas inclus ?\nA. Le trajet\nB. Le bagage\nC. Le repas\nD. Le billet\nRéponds uniquement par la lettre A, B, C ou D.",
+      "max_tokens": 1,
+      "fp16_response": "D",
+      "int4_response": "D",
+      "fp16_label": "D",
+      "int4_label": "D"
+    },
+    {
+      "category": "Lecture",
+      "question": "La salle A a 14 places libres. La salle B en a 5 de moins. Combien de places libres a la salle B ?",
+      "expected": "D",
+      "options": [
+        "5",
+        "8",
+        "19",
+        "9"
+      ],
+      "prompt": "La salle A a 14 places libres. La salle B en a 5 de moins. Combien de places libres a la salle B ?\nA. 5\nB. 8\nC. 19\nD. 9\nRéponds uniquement par la lettre A, B, C ou D.",
+      "max_tokens": 1,
+      "fp16_response": "B",
+      "int4_response": "B",
+      "fp16_label": "B",
+      "int4_label": "B"
+    },
+    {
+      "category": "Lecture",
+      "question": "L’équipe a prévu de courir si la piste est sèche et de nager sinon. La piste est mouillée. Quelle activité est prévue ?",
+      "expected": "B",
+      "options": [
+        "Courir",
+        "Nager",
+        "Faire du vélo",
+        "Annuler la séance"
+      ],
+      "prompt": "L’équipe a prévu de courir si la piste est sèche et de nager sinon. La piste est mouillée. Quelle activité est prévue ?\nA. Courir\nB. Nager\nC. Faire du vélo\nD. Annuler la séance\nRéponds uniquement par la lettre A, B, C ou D.",
+      "max_tokens": 1,
+      "fp16_response": "D",
+      "int4_response": "B",
+      "fp16_label": "D",
+      "int4_label": "B"
+    },
+    {
+      "category": "Réponse libre",
+      "question": "Explique en deux phrases pourquoi le produit de deux nombres impairs est impair.",
+      "prompt": "Explique en deux phrases pourquoi le produit de deux nombres impairs est impair.",
+      "rubric": "La justification fait apparaître que le produit a la forme 2k + 1.",
+      "max_tokens": 128,
+      "fp16_response": "Le produit de deux nombres impairs est impair car l'impair est défini comme un nombre entier qui ne peut être divisé par deux sans avoir un reste. Lorsque vous multipliez deux nombres impairs, vous obtenez un produit qui est également un nombre entier. Par conséquent, ce produit ne peut pas être divisé par deux sans avoir un reste, ce qui signifie qu'il est impair.",
+      "int4_response": "Le produit de deux nombres impairs est impair car l'impair est défini comme étant divisible par 2 et ne pouvant donc pas être divisé par 2 sans rester entier. Lorsque vous multipliez deux nombres impairs, vous devez diviser par 2 et obtenir un reste, ce qui signifie que le résultat est également impair."
+    },
+    {
+      "category": "Réponse libre",
+      "question": "Paul affirme que toute matrice carrée non nulle est inversible. Donne un contre-exemple 2 × 2 et explique-le brièvement.",
+      "prompt": "Paul affirme que toute matrice carrée non nulle est inversible. Donne un contre-exemple 2 × 2 et explique-le brièvement.",
+      "rubric": "La réponse donne une matrice non nulle avec un déterminant nul ou des lignes dépendantes.",
+      "max_tokens": 128,
+      "fp16_response": "Paul est incorrect. Une matrice carrée non nulle n'est pas nécessairement inversible. Un contre-exemple 2 × 2 est la matrice identité 2 × 2, qui est de la forme:\n\n\\[\n\\begin{pmatrix}\n1 & 0 \\\\\n0 & 1\n\\end{pmatrix}\n\\]\n\nCette matrice est inversible car elle est égale à sa propre inverse. Pour vérifier, on peut calculer la multiplication de la matrice par sa propre inverse :\n\n\\[\n\\begin{pmatrix}\n1 & 0 \\\\\n0 & 1\n\\",
+      "int4_response": "Paul est incorrect. Il existe des matrices carrées non nulles qui ne sont pas inversibles. Un contre-exemple 2 × 2 est la matrice suivante :\n\n\\[\n\\begin{pmatrix}\n1 & 0 \\\\\n0 & 0\n\\end{pmatrix}\n\\]\n\nCette matrice est carrée, non nulle et n'est pas inversible. Pour voir pourquoi, rappelle-toi que la matrice est inversible si et seulement si son déterminant est non nul. Le déterminant de cette matrice est \\(1 \\times 0 - 0 \\times"
+    }
+  ]
+}

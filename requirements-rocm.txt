@@ -1,0 +1,7 @@
+# Ubuntu 26.04 (WSL2), Python 3.14, Radeon RX 7900 XTX.
+# Installer avec les deux index AMD indiqués dans le README.
+rocm[libraries,device-gfx1100]==10.1.0
+torch[device-gfx1100]==2.13.0+rocm10.1.0
+torchvision[device-gfx1100]==0.28.0+rocm10.1.0
+torchaudio==2.11.0.2+rocm10.1.0
+vllm==0.29.1.dev0+rocm10.1.0.g98dff2a81.d20261002
